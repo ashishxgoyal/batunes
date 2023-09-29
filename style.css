@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Oswald:wght@300&family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap');
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav{
+    font-family: 'Roboto','oswald';
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(212, 58, 11);
+    color: rgba(235, 237, 240, 0.911);
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+width: 44px;
+padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(216, 85, 34);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top:14px ;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+ 
+}
+
+.songitemcontainer{
+    margin-top: 32;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+background-color: rgb(214, 73, 17);
+width:100%;
+ margin: 12px; 
+justify-content: space-between; 
+align-items: center;
+border-radius: 34px;
+}
+
+.songItem img{
+width: 43px;
+margin: 10px;
+border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px 0;
+}
+
+.songlistplay{
+    display: flex;
+    justify-content: space-between;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'verela round',sans-serif;
+
+}
+
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+    l
+}
